@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSHAKUMARPS</title>
+    <style>
+        *
+{
+    margin:0;
+    padding: 0;
+    border: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    color: black;
+    display: flex;
+}
+.header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 7, 12);
+    text-decoration: none;
+    font-weight: 600;
+       
+}
+.navbar a {
+   display: inline-block;
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    color: #007bff;
+}
+.home{
+    position: relative;
+    width:100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url('https://img-19.commentcamarche.net/P51ArxVXHJKsgdTzGDaqajlWJ3s=/1500x/smart/7b5dd43e607643fea1a61960e3f66fc4/ccmcms-commentcamarche/39481621.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding:70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px,0;
+
+}
+.home-content p{
+    font-size: 18px;
+}
+
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">webpage</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About me</a>
+            <a href="#">projects</a>
+            <a href="#">contacts</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Harsha </h1>
+            <p>And I'am a</p>
+            <h3>Software Devolper</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
